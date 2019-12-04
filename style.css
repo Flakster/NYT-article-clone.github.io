@@ -60,3 +60,30 @@
 .font1 {
 	font-weight: 700;
 }
+
+.lower-nav-bar{
+    border-top: 1px solid black;
+    position: fixed;
+    height: 60px;
+    width: 100vw;
+    bottom: 0;
+}
+
+.lower-nav-text{
+    position: absolute;
+    width:100vw;
+    text-align: center;
+    bottom: 20px;
+}
+.expand-text{
+    position: absolute;
+    right: 10vw;
+    bottom: 20px;
+}
+
+.expand-icon{
+    position:absolute;
+    right: 5vw;
+    bottom: 20px;
+    transform: rotate(-90deg);
+}
