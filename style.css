@@ -163,7 +163,7 @@ h1, h3 {
     color: #666;
 }
 
-.mainImgDesc span {
+.smallText {
 	font-size: 0.75rem;
 	color: #888;
 }
@@ -278,6 +278,22 @@ hr{
 .unlockFreeContent a {
 	color: rgb(50, 104, 145);
 }
+
+.articleLayout >*{
+    font-size: 1.25rem; line-height: 1.875rem; 
+    margin-bottom: 0.9375rem; margin-top: 0; 
+    color: #333;
+}
+
+.articleLayoutContent >:nth-child(1){
+    padding-top:50px;   
+}
+
+
+.secondImage{
+    width: 45vw;
+}
+
 
 
 footer {
