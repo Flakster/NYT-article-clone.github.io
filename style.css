@@ -1,11 +1,14 @@
 .nav-bar{
+	position: fixed;
     border-bottom: 1px solid #ededed;
     height: 4vh;
     width: 100vw;
+    background: white;
+    z-index: 99999;
 }
 
 .container1 {
-	margin: 0 7vw;
+	margin: 0 0 0 7vw;
 }
 
 .iconsBtn {
@@ -32,6 +35,18 @@
     margin-right: 3vw;
 }
 
+.topNavbtn {
+	position: absolute;
+	top: 4px;
+	right: 8vw;
+}
+
+/*.topNavbtn2 {
+	position: absolute;
+	top: 4px;
+	right: 5vw;
+}
+*/
 .btnSubLog {
 	border-radius: 5px;
     cursor: pointer;
@@ -67,6 +82,8 @@
     height: 60px;
     width: 100vw;
     bottom: 0;
+    background: white;
+    z-index: 99999;
 }
 
 .lower-nav-text{
@@ -86,4 +103,60 @@
     right: 5vw;
     bottom: 20px;
     transform: rotate(-90deg);
+}
+
+h1 {
+	position: absolute;
+	top: 10vh;
+	right: 10px;
+	width: 100vw;
+	text-align: center;
+	margin: auto;
+}
+
+h3 {
+	position: absolute;
+	top: 15vh;
+	width: 100vw;
+	text-align: center;
+	margin: auto;
+}
+
+h1, h3 {
+	font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+	font-size: 2em;
+    font-weight: bold;
+}
+
+.articleLayout {
+	padding-top: 20vh;
+	margin: auto;
+	width: 65vw;
+}
+
+.headerImg { 
+	width: 65vw;
+	margin: auto;
+}
+
+.mainImgDesc {
+	font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666;
+}
+
+.mainImgDesc span {
+	font-size: 0.75rem;
+	color: #888;
+}
+
+
+
+
+
+
+
+
+footer {
+	margin-bottom: 60px;
 }
