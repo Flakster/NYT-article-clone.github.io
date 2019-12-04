@@ -1,7 +1,7 @@
 .nav-bar{
 	position: fixed;
     border-bottom: 1px solid #ededed;
-    height: 4vh;
+    height: 6vh;
     width: 100vw;
     background: white;
     z-index: 99999;
@@ -134,6 +134,17 @@ h1, h3 {
 	width: 65vw;
 }
 
+.articleLayoutContent {
+    padding-top: 5vh;
+	margin: auto;
+	width: 45vw;
+}
+
+.articleLayoutContent h2{
+    font-size: 0.9375rem; line-height: 1.25rem; 
+    font-weight: 700;
+}
+
 .headerImg { 
 	width: 65vw;
 	margin: auto;
@@ -150,13 +161,51 @@ h1, h3 {
 	color: #888;
 }
 
+.date-text{
+    float:left;
+    padding-top: 15px;
+    padding-right: 50%; 
+    color:#333;
+    font-size: 0.8125rem; line-height: 1rem; font-weight: 500; 
+}
 
+.share-icons{  
+    width: 15px;
+    height: 15px;;  
+}
 
+.social-icon{
+    width: 28px;
+    height: 28px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    border: none;
+    margin: 0 5px;
+}
 
+.social-icon:hover{
+    background: white;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.comments{
+    border:none;
+    background: #fff;   
+}
+
+.comments >*{
+    padding-top:10px;
+    width: 25px;
+    height: 25px;
+}
+
+hr{
+    border:none;
+}
 
 
 
 
 footer {
-	margin-bottom: 60px;
+	margin-bottom: 200px;
 }
