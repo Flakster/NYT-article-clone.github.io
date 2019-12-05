@@ -73,9 +73,10 @@ body {
 }
 
 .fontReset,
-.unlockFreeContent a {
+.unlockFreeContent a,
+.lastNavBarMenu a {
 	text-decoration: none;
-	color: black;
+	color: #333;
 }
 
 .font1 {
@@ -401,24 +402,27 @@ iframe {
     padding-top:30px;
 }
 .readCommentsBtn{
+	width: 17vw;
     float: left;
+    margin-right: 120px;
 }
 
 .bottomImageLayout{
     clear:both;
-    margin-top: 80px;
+    width: 65vw;
+    margin: 80px auto 0 auto; 
 }
 
 .imagesGrid{
-    margin:0 0 0 60px;
     padding:0;
     display:inline;
-    width: 62vw;
+    width: 46vw;
     float:left;
 }
 
-.imagesGrid >span{
+.imagesGridTitle{
     display:block;
+    clear: both;
     padding-top:20px;
     margin-bottom: 20px;
     border-top:1px solid black;
@@ -437,25 +441,29 @@ iframe {
     margin:0 20px;
 }
 
+.imagesGrid >:nth-child(10){
+    margin:0 20px;
+}
+
 .mostPopularLayout{
-    margin:0;
+    margin:0 0 0 2vw;
     padding:0;
     display:inline;
-    width:29vw;
+    width:17vw;
     float:left;
 }
 
 .photoAndCredit{
     float:left;
-    width:19.5vw;
+    width:14.5vw;
     height:220px;
-    margin-bottom:200px;
+    margin-bottom:80px;
     text-align: right;
 }
 
 .seeMoreImg{
     float:left;
-    width: 19.5vw;
+    width: 14.5vw;
     height: 180px;
 }
 
@@ -475,8 +483,67 @@ iframe {
 .smallerText {
 	font-size: 0.65rem;
 	color: #888;
+	padding-top: 182px;
+}
+
+.heightFix {
+	height: 40px;
+	padding-top: 5px;
+	text-align: left;
+}
+
+.mostPopularLayout a {
+	padding: 20px 0;
+	display: block;
+	text-decoration: none;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	color: #333;
+	font-size: 1.13rem;
+}
+
+.lastNavBar {
+	clear: both;
+	/*border-bottom: 1px solid rgb(226, 226, 226);*/
+    border-top: 2px solid rgb(226, 226, 226);
+}
+
+#mainLogoBottom {
+	border-top: 1px solid rgb(226, 226, 226);
+	margin-top: 1px;
+	width: 65vw;
+	height: 40px;
+	padding-top: 10px;
+}
+
+.lastNavBarMenu {
+	width: 10.72vw;
+	float: left;
+	margin: 0;
+}
+
+h4 {
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+
+.lastNavBarfont {
+	font-size: 0.9rem; 
+}
+
+.lastNavBarMenu li{
+	padding-top: 8px;
+}
+
+.subBorder {
+	border-left: 1px solid rgb(226, 226, 226);
+	padding-left: 10px;
+}
+
+.lastNavBarICons {
+	width: 14px;
+	height: 13px;
 }
 
 footer {
-	margin-bottom: 400px;
+	margin-top: 1900px;
 }
