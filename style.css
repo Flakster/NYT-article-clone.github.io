@@ -1,11 +1,12 @@
 body {
 	font-family: 'Libre Franklin',helvetica,arial,sans-serif;
+	overflow-x: hidden;
 }
 
 .nav-bar{
 	position: fixed;
     border-bottom: 1px solid #ededed;
-    height: 6vh;
+    height: 5vh;
     width: 100vw;
     background: white;
     z-index: 99999;
@@ -140,9 +141,12 @@ h1, h3 {
 }
 
 .articleLayoutContent {
-    padding-top: 5vh;
 	margin: auto;
-	width: 45vw;
+	width: 35vw;
+}
+
+.articlePadding {
+	 padding-top: 5vh;
 }
 
 .articleLayoutContent h2{
@@ -279,9 +283,11 @@ hr{
 	color: rgb(50, 104, 145);
 }
 
-.articleLayout >*{
-    font-size: 1.25rem; line-height: 1.875rem; 
-    margin-bottom: 0.9375rem; margin-top: 0; 
+.articleLayoutContent>p{
+    font-size: 1.25rem; 
+    line-height: 1.875rem; 
+    margin-bottom: 1.2375rem; 
+    margin-top: 0; 
     color: #333;
 }
 
@@ -289,11 +295,98 @@ hr{
     padding-top:50px;   
 }
 
-
-.secondImage{
-    width: 45vw;
+.firstImage {
+	height: 525px;
+	margin-bottom: 150px;
 }
 
+.firstImage *{
+	display: block;
+	position: relative;
+    width: 55vw;
+    margin: auto;
+}
+
+.firstImageTextPosition1 {
+	position: relative;
+	top: -450px;
+	left: -380px;
+}
+
+.firstImageTextPosition2 {
+	position: relative;
+	top: -650px;
+	left: -117px;
+}
+
+.firstImageTextPosition3 {
+	position: relative;
+	top: -850px;
+	left: 155px;
+}
+
+.firstImageTextPosition4 {
+	position: relative;
+	top: -1050px;
+	left: 420px;
+}
+
+.firstImageTextPosition5 {
+	position: relative;
+	top: -930px;
+	left: -380px;
+}
+
+.firstImageTextPosition6 {
+	position: relative;
+	top: -1130px;
+	left: -117px;
+}
+
+.firstImageTextPosition7 {
+	position: relative;
+	top: -1330px;
+	left: 155px;
+}
+
+.firstImageTextPosition8 {
+	position: relative;
+	top: -1530px;
+	left: 420px;
+}
+
+.firstImageTextPosition9 {
+	position: relative;
+	top: -1620px;
+	left: -380px;
+}
+
+.firstImageTextPosition9 p {
+	border-top: 1px solid grey;
+}
+
+.firstImageTextPosition p {
+	width: 13.75vw;
+	height: 200px;
+	font-size: 0.70rem;
+    line-height: 0.9rem; 
+}
+
+.firstImageTextPosition span {
+	font-weight: 700;
+}
+
+.secondImage{
+	display: block;
+    width: 45vw;
+    margin: auto;
+}
+
+iframe {
+	padding-top: 30px;
+	width: 35vw;
+	height: 360px;
+}
 
 
 footer {
