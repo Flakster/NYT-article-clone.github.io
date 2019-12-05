@@ -167,6 +167,15 @@ h1, h3 {
     color: #666;
 }
 
+.mainImgDesc a{
+    color:#666;
+}
+
+.mainImgDesc a:hover{
+    color:#666;
+    text-decoration: none;
+}
+
 .smallText {
 	font-size: 0.75rem;
 	color: #888;
@@ -388,7 +397,86 @@ iframe {
 	height: 360px;
 }
 
+.socialBar{
+    padding-top:30px;
+}
+.readCommentsBtn{
+    float: left;
+}
+
+.bottomImageLayout{
+    clear:both;
+    margin-top: 80px;
+}
+
+.imagesGrid{
+    margin:0 0 0 60px;
+    padding:0;
+    display:inline;
+    width: 62vw;
+    float:left;
+}
+
+.imagesGrid >span{
+    display:block;
+    padding-top:20px;
+    margin-bottom: 20px;
+    border-top:1px solid black;
+}
+
+.imagesGrid p{
+    display:block;
+}
+
+.imagesGrid >:nth-child(3){
+    margin:0 20px;
+}
+
+
+.imagesGrid >:nth-child(6){
+    margin:0 20px;
+}
+
+.mostPopularLayout{
+    margin:0;
+    padding:0;
+    display:inline;
+    width:29vw;
+    float:left;
+}
+
+.photoAndCredit{
+    float:left;
+    width:19.5vw;
+    height:220px;
+    margin-bottom:200px;
+    text-align: right;
+}
+
+.seeMoreImg{
+    float:left;
+    width: 19.5vw;
+    height: 180px;
+}
+
+.photoCredits{
+    margin-top:5px;
+    display:block;
+}
+
+.photoTitle{
+    display:block;  
+    text-align: left;
+    vertical-align: bottom;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.smallerText {
+	font-size: 0.65rem;
+	color: #888;
+}
 
 footer {
-	margin-bottom: 200px;
+	margin-bottom: 400px;
 }
