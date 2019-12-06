@@ -22,8 +22,8 @@
 👤 **Mohammed TOUILI**
 
 * Twitter: [@Flakster ](https://twitter.com/Flakster )
+* Github: [@Flakster](https://github.com/https:\/\/github.com\/Flakster)  
 * Twitter: [@MohammedTouili](https://twitter.com/MohammedTouili )
-* Github: [@Flakster](https://github.com/https:\/\/github.com\/Flakster)
 * Github: [@simoxsimo](https://github.com/https:\/\/github.com\/simoxsimo)
 
 ## Show your support
