@@ -26,7 +26,7 @@
 
 ## 🏠 [Homepage](http://www.github.com/Flakster/NYT-article-clone.github.io/)
 
-## 👋 [Live demo](https://rawcdn.githack.com/Flakster/NYT-article-clone.github.io/d8cc41b9b29469744eb623fb5379e9e05e0e2f35/index.html)
+## ⭐️ [Live demo](https://rawcdn.githack.com/Flakster/NYT-article-clone.github.io/d8cc41b9b29469744eb623fb5379e9e05e0e2f35/index.html)
 
 ## Screenshot
 ![Captura de pantalla de 2019-12-06 15-27-04](https://user-images.githubusercontent.com/53324035/70354213-07229500-183d-11ea-85f9-6d541646a768.png)
@@ -40,7 +40,3 @@
 * Github: [@Flakster](https://github.com/https:\/\/github.com\/Flakster)  
 * Twitter: [@MohammedTouili](https://twitter.com/MohammedTouili )
 * Github: [@simoxsimo](https://github.com/https:\/\/github.com\/simoxsimo)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
