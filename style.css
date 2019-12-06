@@ -1,15 +1,15 @@
 body {
 	font-family: 'Libre Franklin',helvetica,arial,sans-serif;
-	overflow-x: hidden;
     margin-bottom: 60px;
+	overflow-x: hidden;
 }
 
 .nav-bar {
-	position: fixed;
+    background: white;
     border-bottom: 1px solid #ededed;
     height: 5vh;
+	position: fixed;
     width: 100vw;
-    background: white;
     z-index: 99999;
 }
 

@@ -4,6 +4,7 @@ linters:
     eslint:
         config: './eslint.config'
     csslint:
+        ignore: 'box-model,ids'
 
 files:
     ignore:
