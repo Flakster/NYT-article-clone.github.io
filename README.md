@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> This  project aims to use floating and positioning  to replecate this NYTimes Article Below: 
+> This  project aims to use floating and positioning  to replicate this NYTimes Article Below: 
 
 ### 🏠 [Homepage](https://rawcdn.githack.com/Flakster/NYT-article-clone.github.io/d8cc41b9b29469744eb623fb5379e9e05e0e2f35/index.html)
 
