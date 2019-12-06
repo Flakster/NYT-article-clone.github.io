@@ -1,9 +1,10 @@
 body {
 	font-family: 'Libre Franklin',helvetica,arial,sans-serif;
 	overflow-x: hidden;
+    margin-bottom: 60px;
 }
 
-.nav-bar{
+.nav-bar {
 	position: fixed;
     border-bottom: 1px solid #ededed;
     height: 5vh;
@@ -34,7 +35,7 @@ body {
 	width: 16px;
 }
 
-.logo-image{
+.logo-image {
     height: 20px;
     padding: 0 11vw 0 25vw;
     margin-right: 3vw;
@@ -46,12 +47,6 @@ body {
 	right: 8vw;
 }
 
-/*.topNavbtn2 {
-	position: absolute;
-	top: 4px;
-	right: 5vw;
-}
-*/
 .btnSubLog {
 	border-radius: 5px;
     cursor: pointer;
@@ -60,12 +55,12 @@ body {
     white-space: nowrap;
     vertical-align: middle;
     background-color: #567b95;
-    color: #fff;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.02em;
     height: 32px;
     border: 1px solid #949494;
+    color: #fff;
 }
 
 .btnSubLog:hover {
@@ -83,7 +78,7 @@ body {
 	font-weight: 700;
 }
 
-.lower-nav-bar{
+.lower-nav-bar {
     border-top: 1px solid black;
     position: fixed;
     height: 60px;
@@ -93,19 +88,20 @@ body {
     z-index: 99999;
 }
 
-.lower-nav-text{
+.lower-nav-text {
     position: absolute;
     width:100vw;
     text-align: center;
     bottom: 20px;
 }
-.expand-text{
+
+.expand-text {
     position: absolute;
     right: 10vw;
     bottom: 20px;
 }
 
-.expand-icon{
+.expand-icon {
     position:absolute;
     right: 5vw;
     bottom: 20px;
@@ -141,7 +137,7 @@ h1, h3 {
 	width: 65vw;
 }
 
-.articleLayoutContent{
+.articleLayoutContent {
 	margin: auto;
 	width: 35vw;
 }
@@ -150,14 +146,14 @@ h1, h3 {
 	 padding-top: 5vh;
 }
 
-.articleLayoutContent h2{
-    font-size: 0.9375rem; 
-    line-height: 1.25rem; 
+.articleLayoutContent h2 {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
     font-weight: 700;
     padding-bottom: 15px;
 }
 
-.headerImg { 
+.headerImg {
 	width: 65vw;
 	margin: auto;
 }
@@ -168,11 +164,11 @@ h1, h3 {
     color: #666;
 }
 
-.mainImgDesc a{
+.mainImgDesc a {
     color:#666;
 }
 
-.mainImgDesc a:hover{
+.mainImgDesc a:hover {
     color:#666;
     text-decoration: none;
 }
@@ -182,7 +178,7 @@ h1, h3 {
 	color: #888;
 }
 
-.date-text{
+.date-text {
     float:left;
     padding-top: 10px;
     padding-right: 40%; 
@@ -192,12 +188,12 @@ h1, h3 {
     font-weight: 500; 
 }
 
-.share-icons{  
+.share-icons {  
     width: 15px;
     height: 15px;;  
 }
 
-.social-icon{
+.social-icon {
 	float: left;
     width: 28px;
     height: 28px;
@@ -207,12 +203,12 @@ h1, h3 {
     margin: 0 10px;
 }
 
-.social-icon:hover{
+.social-icon:hover {
     background: white;
     border: 1px solid rgba(0,0,0,0.1);
 }
 
-.comments{
+.comments {
 	float: left;
     border:none;
     background: #fff;
@@ -222,7 +218,7 @@ h1, h3 {
     margin: 0 10px;  
 }
 
-.comments >*{
+.comments>* {
     width: 16px;
     height: 25px;
 }
@@ -267,7 +263,7 @@ h1, h3 {
 	right: 13px;
 }
 
-hr{
+hr {
     border:none;
 }
 
@@ -293,7 +289,7 @@ hr{
 	color: rgb(50, 104, 145);
 }
 
-.articleLayoutContent>p{
+.articleLayoutContent>p {
     font-size: 1.25rem; 
     line-height: 1.875rem; 
     margin-bottom: 1.2375rem; 
@@ -301,7 +297,7 @@ hr{
     color: #333;
 }
 
-.articleLayoutContent >:nth-child(1){
+.articleLayoutContent >:nth-child(1) {
     padding-top:50px;   
 }
 
@@ -310,7 +306,7 @@ hr{
 	margin-bottom: 150px;
 }
 
-.firstImage *{
+.firstImage * {
 	display: block;
 	position: relative;
     width: 55vw;
@@ -371,7 +367,7 @@ hr{
 	left: -380px;
 }
 
-.firstImageTextPosition9 p{
+.firstImageTextPosition9 p {
 	border-top: 1px solid grey;
 }
 
@@ -386,7 +382,7 @@ hr{
 	font-weight: 700;
 }
 
-.secondImage{
+.secondImage {
 	display: block;
     width: 45vw;
     margin: auto;
@@ -398,29 +394,29 @@ iframe {
 	height: 360px;
 }
 
-.socialBar{
+.socialBar {
     padding-top:30px;
 }
-.readCommentsBtn{
+.readCommentsBtn {
 	width: 17vw;
     float: left;
     margin-right: 120px;
 }
 
-.bottomImageLayout{
+.bottomImageLayout {
     clear:both;
     width: 65vw;
     margin: 80px auto 0 auto; 
 }
 
-.imagesGrid{
+.imagesGrid {
     padding:0;
     display:inline;
     width: 46vw;
     float:left;
 }
 
-.imagesGridTitle{
+.imagesGridTitle {
     display:block;
     clear: both;
     padding-top:20px;
@@ -428,24 +424,24 @@ iframe {
     border-top:1px solid black;
 }
 
-.imagesGrid p{
+.imagesGrid p {
     display:block;
 }
 
-.imagesGrid >:nth-child(3){
+.imagesGrid >:nth-child(3) {
     margin:0 20px;
 }
 
 
-.imagesGrid >:nth-child(6){
+.imagesGrid >:nth-child(6) {
     margin:0 20px;
 }
 
-.imagesGrid >:nth-child(10){
+.imagesGrid >:nth-child(10) {
     margin:0 20px;
 }
 
-.mostPopularLayout{
+.mostPopularLayout {
     margin:0 0 0 2vw;
     padding:0;
     display:inline;
@@ -453,7 +449,7 @@ iframe {
     float:left;
 }
 
-.photoAndCredit{
+.photoAndCredit {
     float:left;
     width:14.5vw;
     height:220px;
@@ -461,18 +457,18 @@ iframe {
     text-align: right;
 }
 
-.seeMoreImg{
+.seeMoreImg {
     float:left;
     width: 14.5vw;
     height: 180px;
 }
 
-.photoCredits{
+.photoCredits {
     margin-top:5px;
     display:block;
 }
 
-.photoTitle{
+.photoTitle {
     display:block;  
     text-align: left;
     vertical-align: bottom;
@@ -529,7 +525,7 @@ h4 {
 	font-size: 0.9rem; 
 }
 
-.lastNavBarMenu li{
+.lastNavBarMenu li {
 	padding-top: 8px;
 }
 
@@ -552,7 +548,7 @@ h4 {
 	font-size: 0.65rem;
 }
 
-.smallerText2 div {
+.smallerText2 li {
 	padding: 10px 0 5px 0;
 }
 
@@ -567,46 +563,75 @@ h4 {
     color:#567b95;  
 }
 
-body {
-	margin-bottom: 1500px;
-}
-
-footer{
+footer {
     padding-top: 5px;
     border-top: 1px solid rgb(226, 226, 226);    
     text-align: center;
 }
 
-footer >:nth-child(1){
+footer >:nth-child(1) {
     display:block;     
 }
 
 
-footer a{
+footer a {
     margin-right: 20px;
     text-decoration: none;
 }
 
-.sideBarLayout{
-    width: 17vw;
+.sideBarLayout {
+    width: 15vw;
     float: right ;
 }
 
-aside button{
-    width:17vw;
+aside button,
+.asideSmallText {
+    width: 10vw;
 }
 
-aside{
-    margin-right: 5vw;
+aside {
+    margin-right: 13vw;
 }
 
-aside span{
+aside span {
     display:block;  
     margin:10px 0;
 }
 
+aside h4 {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+aside img {
+    width: 75px;
+    height: 75px;
+}
+
+aside img,
+.spanText {
+    float: left;
+}
+
+.spanText {
+    min-height: 75px;
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 15px;
+    width: 170px;
+}
+
+aside div {
+    padding-top: 20px;
+    clear: left;
+}
+
+.font2 {
+    font-size: 0.9rem;
+    color: #333;
+}
 
 
-footer span:hover{
+footer span:hover {
     border-bottom: 1px solid #999;
 }
