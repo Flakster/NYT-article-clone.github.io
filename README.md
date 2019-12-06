@@ -1,4 +1,5 @@
-<h1 align="center">Welcome to NYTimes Article Clone  👋</h1>
+## Project Name
+<h1 align="center">NYTimes Article Clone</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -12,9 +13,20 @@
   </a>
 </p>
 
-> This  project aims to use floating and positioning  to replicate this NYTimes Article Below: 
 
-### 🏠 [Homepage](https://rawcdn.githack.com/Flakster/NYT-article-clone.github.io/d8cc41b9b29469744eb623fb5379e9e05e0e2f35/index.html)
+## Description of the project 
+
+>This  project aims to use floating and positioning  to replicate this NYTimes Article Below: 
+
+## Built with
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+</ul>
+
+## 🏠 [Homepage](http://www.github.com/Flakster/NYT-article-clone.github.io/)
+
+## 👋 [Live demo](https://rawcdn.githack.com/Flakster/NYT-article-clone.github.io/d8cc41b9b29469744eb623fb5379e9e05e0e2f35/index.html)
 
 ## Screenshot
 ![Captura de pantalla de 2019-12-06 15-27-04](https://user-images.githubusercontent.com/53324035/70354213-07229500-183d-11ea-85f9-6d541646a768.png)
