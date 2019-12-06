@@ -7,6 +7,9 @@
   <a href="https://twitter.com/Flakster " target="_blank">
     <img alt="Twitter: Flakster " src="https://img.shields.io/twitter/follow/Flakster .svg?style=social" />
   </a>
+  <a href="https://twitter.com/MohammedTouili " target="_blank">
+    <img alt="Twitter: MohammedTouili " src="https://img.shields.io/twitter/follow/MohammedTouili .svg?style=social" />
+  </a>
 </p>
 
 > This  project aims to use floating and positioning  to replecate this NYTimes Article Below: 
@@ -16,9 +19,12 @@
 ## Author
 
 👤 **Carlos Santamaria**
+👤 **Mohammed TOUILI**
 
 * Twitter: [@Flakster ](https://twitter.com/Flakster )
-* Github: [@https:\/\/github.com\/Flakster](https://github.com/https:\/\/github.com\/Flakster)
+* Twitter: [@MohammedTouili](https://twitter.com/MohammedTouili )
+* Github: [@Flakster](https://github.com/https:\/\/github.com\/Flakster)
+* Github: [@simoxsimo](https://github.com/https:\/\/github.com\/simoxsimo)
 
 ## Show your support
 
