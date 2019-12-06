@@ -15,7 +15,9 @@
 > This  project aims to use floating and positioning  to replecate this NYTimes Article Below: 
 
 ### 🏠 [Homepage](https://rawcdn.githack.com/Flakster/NYT-article-clone.github.io/d8cc41b9b29469744eb623fb5379e9e05e0e2f35/index.html)
+![Captura de pantalla de 2019-12-06 15-27-04](https://user-images.githubusercontent.com/53324035/70354213-07229500-183d-11ea-85f9-6d541646a768.png)
 
+<img alt="Screenshot" src="" />
 ## Author
 
 👤 **Carlos Santamaria**
