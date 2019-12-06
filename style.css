@@ -371,7 +371,7 @@ hr{
 	left: -380px;
 }
 
-.firstImageTextPosition9 p {
+.firstImageTextPosition9 p{
 	border-top: 1px solid grey;
 }
 
@@ -542,6 +542,23 @@ h4 {
 .lastNavBarICons {
 	width: 14px;
 	height: 13px;
+}
+
+.subMenu {
+	font-weight: bold;
+	color: black;
+}
+
+.smallerText2 {
+	font-size: 0.65rem;
+}
+
+.smallerText2 div {
+	padding: 10px 0 5px 0;
+}
+
+#border {
+	border-top: 1px solid rgb(226, 226, 226);
 }
 
 footer {
