@@ -141,7 +141,7 @@ h1, h3 {
 	width: 65vw;
 }
 
-.articleLayoutContent {
+.articleLayoutContent{
 	margin: auto;
 	width: 35vw;
 }
@@ -503,14 +503,13 @@ iframe {
 
 .lastNavBar {
 	clear: both;
-	/*border-bottom: 1px solid rgb(226, 226, 226);*/
     border-top: 2px solid rgb(226, 226, 226);
 }
 
 #mainLogoBottom {
 	border-top: 1px solid rgb(226, 226, 226);
 	margin-top: 1px;
-	width: 65vw;
+	width: 40vw;
 	height: 40px;
 	padding-top: 10px;
 }
@@ -561,6 +560,53 @@ h4 {
 	border-top: 1px solid rgb(226, 226, 226);
 }
 
-footer {
-	margin-top: 1900px;
+.goHomeLink{
+    float: right;
+    padding-top: 20px;
+    text-decoration: none;
+    color:#567b95;  
+}
+
+body {
+	margin-bottom: 1500px;
+}
+
+footer{
+    padding-top: 5px;
+    border-top: 1px solid rgb(226, 226, 226);    
+    text-align: center;
+}
+
+footer >:nth-child(1){
+    display:block;     
+}
+
+
+footer a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.sideBarLayout{
+    width: 17vw;
+    float: right ;
+}
+
+aside button{
+    width:17vw;
+}
+
+aside{
+    margin-right: 5vw;
+}
+
+aside span{
+    display:block;  
+    margin:10px 0;
+}
+
+
+
+footer span:hover{
+    border-bottom: 1px solid #999;
 }
