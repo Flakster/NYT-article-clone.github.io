@@ -74,6 +74,7 @@ footer a {
 
 .fontReset,
 .unlockFreeContent a,
+.photoAndCredit a,
 .lastNavBarMenu a {
   text-decoration: none;
   color: #333;
@@ -187,7 +188,8 @@ h3 {
   font-size: 1.13rem;
 }
 
-.mainImgDesc a:hover {
+.mainImgDesc a:hover,
+.photoAndCredit a:hover {
   color: #666;
   text-decoration: none;
 }
